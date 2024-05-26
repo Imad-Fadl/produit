@@ -1,0 +1,139 @@
+[
+    {
+        "id": 1,
+        "name":" CAFÉ TOSTADO COLOMBIA MOLIDO",
+        "price": 50,
+        "image": "./morenita1.png",
+        "cat" : "beans"
+        
+    },
+    {
+        "id": 2,
+        "name":"CAFÉ TOSTADO COLOMBIA  GRANO",
+        "price": 50,
+        "image": "./morenita2.png" ,
+        "cat" : "beans"
+    },
+    {
+        "id": 3,
+        "name":"CAFÉ TORRADO MOLIDO SAQUITOS",
+        "price": 55,
+        "image": "./morenita3.png" ,
+        "cat" : "beans"
+    },
+    {
+        "id": 4,
+        "name":"MOLIDO BLEND TIPO ITALIANO",
+        "price": 60,
+        "image": "./morenita4.png" ,
+        "cat" : "beans"
+        
+    },
+    {
+        "id": 5,
+        "name":"CAFÉ TORRADO MOLIDO INTENSO",
+        "price": 40,
+        "image": "./morenita5.png" ,
+        "cat" : "beans"
+    },
+    {
+        "id": 6,
+        "name":"CAFÉ EN CÁPSULAS BRASIL",
+        "price": 50,
+        "image": "./morenita6.png" ,
+        "cat" : "capsulas"
+    },
+    {
+        "id": 7,
+        "name":"CAFÉ EN CÁPSULAS ITALIANO",
+        "price": 40,
+        "image": "./morenita7.png" ,
+        "cat" : "capsulas"
+    },
+    {
+        "id": 8,
+        "name":"CAFÉ EN CÁPSULAS ETIOPIA",
+        "price": 35,
+        "image": "./morenita8.png" ,
+        "cat" : "capsulas"
+    },
+    {
+        "id": 9,
+        "name":"CAFÉ EN CÁPSULAS COLOMBIA",
+        "price": 45,
+        "image": "./morenita9.png" ,
+        "cat" : "capsulas"
+    }
+    ,
+    {
+        "id": 10,
+        "name":"CAFÉ DE ARUBA SUPERIOR",
+        "price": 7,
+        "image": "./aruba.png" ,
+        "cat" : "beans",
+        "type" : "cheapest"
+    }
+    ,
+    {
+        "id": 11,
+        "name":"CAFÉ ARABICA SUPERIOR",
+        "price": 7,
+        "image": "./arabicasup.png" ,
+        "cat" : "beans",
+        "type" : "cheapest"
+    }
+    ,
+    {
+        "id": 12,
+        "name":"CAFÉ DE GRANO DE ORO",
+        "price": 5,
+        "image": "./granodeoro.png" ,
+        "cat" : "beans" ,
+        "type" : "cheapest"
+    }
+    ,
+    {
+        "id": 13,
+        "name":"CAFÉ DE GRANO VERDE",
+        "price": 20,
+        "image": "./granoverde.png" ,
+        "cat" : "beans",
+        "type" : "cheapest"
+    },
+    {
+        "id": 14,
+        "name":"KETTLE ELECTRIC",
+        "price": 25,
+        "image": "./kettle.png" ,
+        "cat" : "accessories",
+        "type" : "cheapest"
+    }
+    ,
+    {
+        "id": 15,
+        "name":"ESPRESSO MACHINE",
+        "price": 25,
+        "image": "./espresso.png" ,
+        "cat" : "accessories",
+        "type" : "cheapest"
+    }
+    ,
+    {
+        "id": 16,
+        "name":"ESPRESSO KEURIG",
+        "price": 40,
+        "image": "./keurig.png" ,
+        "cat" : "accessories",
+        "type" : "cheapest"
+    }
+    ,
+    {
+        "id": 17,
+        "name":"JUG THERMOSES",
+        "price": 15,
+        "image": "./thermo.png" ,
+        "cat" : "accessories",
+        "type" : "cheapest"
+    }
+
+]

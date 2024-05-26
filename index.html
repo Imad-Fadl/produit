@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE-ECOMMERCE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <a href="https://imad-fadl.github.io/coffeeMain/" class="logo">
+            <img src="./logo.png">
+        </a>
+    </header>
+    <div class="container">
+        <section class="prd">
+            <div class="title">PRODUCTS</div>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span>0</span>
+            </div>
+        </section>
+        <section>
+            <div class="filter">
+                <button id="all" >All</button>
+                <button id="beans" >Beans</button>
+                <button id="capsulas" >Capsulas</button>
+                <button id="accessories" >Accessories</button>
+                <button id="cheapest" >Sale</button>
+            </div>
+        </section>
+        <div class="listProduct">
+
+        </div>
+        </div>
+        <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+        </div>
+        <div class="total">Total:</div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut"><a href="../checkout/index.html" target="_blank">Paiement</a></button>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <h3>Privacy</h3>
+            <a href="#">Terms of use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#"></a>
+        </div>
+        <div class="foot">
+            <h3>Products</h3>
+            <a href="#">Beans</a>
+            <a href="#">Blend</a>
+            <a href="#">Special</a>
+        </div>
+        <div class="foot">
+            <h3>About Us</h3>
+            <a href="#">Contact</a>
+            <a href="#">Location</a>
+            <a href="#">coffee@gmail.com</a>
+        </div>
+    
+    </footer>
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        let menu = document.querySelector('#menu-icon');
+        let navlist = document.querySelector('.navlist');
+    menu.onclick = () => {
+        menu.classList.toggle('bx-x');
+        navlist.classList.toggle('open')
+    }
+  
+    </script>
+</body>
+</html>
